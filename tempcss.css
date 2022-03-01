@@ -1,0 +1,1020 @@
+/* @media only screen and (max-width: 600px) { */
+
+*
+{
+    margin:0;
+    padding:0;
+    
+
+}
+
+
+
+html {box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit;}
+/*First section*/
+
+.ironworks
+{
+    height:800px;
+    width:100%;
+    margin:auto;
+}
+.one
+{
+    height:400px;
+    width:100%;
+    background-image:url("Iron-Works-Welding2.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+    
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+
+}
+
+nav , .logo
+{
+    height:100px;
+    width:100%;
+
+}
+.logo img
+{
+    width:50px;
+    margin-top:38px;
+
+}
+.logo b
+{
+    position: relative;
+    top:-10px;
+    right:-5px;
+    color: rgb(255, 217, 0);
+    font-size:40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav a
+{
+    text-decoration: none;
+    color: wheat;
+    position: relative;
+    top:40px;
+    margin:15px;
+    font-size:x-large;
+}
+
+.one h1,h6
+{
+    text-align: center;
+    color: wheat;
+}
+
+.one h1 
+{
+    font-size:45px;
+    font-weight:bolder;
+    text-transform:uppercase;
+    font-family: sans-serif;
+    position:relative;
+    top:75px;
+}
+
+.one h6
+{
+    letter-spacing:20px;
+    font-size: 15px;
+    position:relative;
+    top:75px;
+}
+
+.square1
+{
+    height:200px;
+    width:250px;
+    float: left;
+    background-image: url("w95afh.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.square2
+{
+    height:200px;
+    width:250px;
+    float: left;
+    background-image: url("Iron-Works-Welding-1.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.square3
+{
+    height:200px;
+    width:250px;
+    float: left;
+    background-image: url("ironworks-professional.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.square1 , .square2 , .square3 
+{
+    margin-top:100px;
+    margin-left:150px;
+}
+
+.square1 div 
+{
+    height:110px;
+    width:210px;
+    background-color:white;
+    margin-top:110px;
+    margin-left:20PX;
+    padding-top:35px;
+    box-shadow:2px 10px #f5ecec;
+
+
+}
+.square2 div 
+{
+    height:110px;
+    width:210px;
+    background-color:white;
+    margin-top:110px;
+    margin-left:20PX;
+    padding-top:35px;
+    box-shadow:2px 10px #f5ecec;
+
+    
+}
+
+.square3 div 
+{
+    height:110px;
+    width:210px;
+    background-color:white;
+    margin-top:110px;
+    margin-left:20PX;
+    padding-top:35px;
+    box-shadow:2px 10px #f5ecec;
+
+}
+
+.square1 div h3 , .square2 div h3 , .square3 div h3 
+{
+    text-align:center;
+    font-family: sans-serif;
+    word-spacing:5px;
+    text-transform: uppercase;
+}
+
+.square1 div p , .square2 div p , .square3 div p
+{
+    text-align:center;
+    font-family: sans-serif;
+    color: rgb(175, 175, 187);
+    font-weight:100;
+}
+
+.Two
+{
+    height:400px;
+    width:100%;
+    margin-top:80px;
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+.Two p 
+{
+    font-size:110px;
+    color: gray;
+    font-weight:900;
+    opacity:0.1;
+    text-transform: uppercase;
+    letter-spacing:0.001em;
+}
+
+.Two b 
+{
+    text-transform: uppercase;
+    position: relative;
+    top:-90px;
+    font-size:40px;
+}
+
+.Two h6 
+{
+    color:black;
+    position:relative;
+    top:-90px;
+    word-spacing:50px;
+    font-size:12.5px;
+    text-transform: uppercase;
+} 
+
+.circle1,.circle2,.circle3
+{
+    margin-top: -45px;
+    height:100px;
+    width:100px;
+   border-radius:50%;
+   float:left;
+   margin-left:250px;
+
+}
+
+.circle1
+{
+    background-image: url("20180129_Notice_CallForPapersIIWmeeting_WELD.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.circle2
+{
+    background-image: url("automatic-welding-machine.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.circle3
+{
+    background-image: url("78226852-welding-worker-welding-steel-structure-with-modern-building-in-big-city-at-background-for-engineerin.webp");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.circle1 p , .circle2 p , .circle3 p 
+{
+    color:black;
+    font-size:15px;
+    opacity: 1;
+    margin-top:110px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*second section*/
+
+.Welding 
+{
+    margin-top:80px;
+    Height:500px;
+    width:100%;
+    padding-top:40px;
+    background-image:url("light-sparks-welding-metal-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.Welding h1 , .Welding p
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.Welding h1
+{
+    font-size: 45px;
+}
+
+.Welding p
+{
+    color: rgb(238, 225, 225);
+    letter-spacing:15px;
+}
+
+
+.Text1
+{
+    height:150px;
+    width:300px;
+    float: left;
+    margin:35px 50px;
+}
+
+
+.Text1 p
+{
+    font-size:10px;
+    letter-spacing:0px;
+    line-height: 1.5;
+}
+
+button
+{
+    position: relative;
+    top:250px;
+    left:-299px;
+    height:60px;
+    width:150px;
+    background-color:gold;
+    border: none;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover
+{
+    cursor:pointer;
+}
+
+.Text2 div
+{
+    height:100px;
+    width:250px;
+    float: left;
+    margin-left:100px;
+    text-align: center;
+}
+
+.Text3 div 
+{
+    height:100px;
+    width:250px;
+    float: left;
+    margin-left:100px;
+    margin-top:60px;
+    text-align: center;
+}
+
+.Text2 div h4, .Text3 div h4
+{
+    font-size:22px;
+
+}
+
+.Text2 div p, .Text3 div p
+{
+    font-size:12px;
+    letter-spacing:0px;
+    line-height: 1.5;
+}
+/*Third section*/
+
+
+.Gallery
+{
+    margin-top:50px;
+    Height:900px;
+    width:100%;
+}
+.Titleofgallery
+{
+    margin-top:10px;
+    height:200px;
+    width:100%;
+    text-align: center;
+}
+.Titleofgallery p
+{
+    font-size:110px;
+    color: gray;
+    font-weight:900;
+    opacity:0.1;
+    text-transform: uppercase;
+    letter-spacing:0.001em;
+    font-family: sans-serif;
+}
+
+.Titleofgallery b 
+{
+    text-transform: uppercase;
+    position: relative;
+    top:-90px;
+    font-size:40px;
+    font-family: sans-serif;
+
+}
+
+.Titleofgallery h6
+{
+    color:black;
+    position:relative;
+    top:-90px;
+    letter-spacing:20px;
+    font-size:12.5px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+}
+
+
+.Gallery1
+{
+
+    Height:400px;
+    width:80%;
+    margin: 50px auto;
+}
+.img1,.img2,.img3
+{
+    float:left;
+}
+
+ .img1
+{
+    width:23.3%;
+    height:53.9%;
+    background-color:#31384a;
+    padding:5px 15px;
+    color:honeydew;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.img1 input[type=button]
+{
+    margin-top:10px;
+    background-color:#31384a;
+    width:130px;
+    height:30px;
+    border:1px solid orange;
+    color:whitesmoke;
+    cursor: pointer;
+}
+.img2
+{
+    width:23.3%;
+    height:53.9%;
+}
+.img2 img
+{
+    width:100%;
+    height:100%;
+} 
+
+.img3
+{
+    width:53.4%;
+    height:53.9%;
+    background-color:#f1be13;
+    padding:5px 15px;
+    color:#31384a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+.img3 input[type=button]
+{
+    margin-top:10px;
+    background-color:#f1be13;
+    width:130px;
+    height:30px;
+    border:1px solid #31384a;
+    color:#31384a;
+    position: relative;
+    top:-85%;
+    cursor: pointer;
+}
+
+.img3 img 
+{
+    height:100%;
+    width:53%;
+    position: relative;
+    left:25%;
+    top:-54%;
+}
+
+
+.img4
+{  height:46%;
+    width:100%;
+}
+
+.Add
+
+{
+    height:183px;
+    width:250px;
+    background-color:#31384a;
+    color:honeydew;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:5px 15px;
+    float:left;
+    
+}
+
+.Add  input[type=button]
+{
+    margin-top:10px;
+    background-color:#31384a;
+    width:130px;
+    height:30px;
+    border:1px solid orange;
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+.sparks
+{
+    height:183px;
+    width:250px;
+    float:left;
+
+}
+
+.sparks img 
+{
+    height:100%;
+    width:100%;   
+}
+
+.full
+{
+    height:183px;
+    width:575px;
+    float:left;
+}
+.full img 
+{
+    width:100%;
+    height:100%;
+    opacity: 0.8;
+}
+
+.Gallery2
+{
+    
+    Height:150px;
+    width:100%;
+    background-image:url("360_F_144388179_CNAR0Ba2iNGZiIYs0hjnnPn2jEFnZG2b.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.num1,.num2,.num3,.num4
+{
+    width:25%;
+    height:100%;
+    float: left;
+    text-align: center;
+    padding-top:35px;
+    color:#ffc51b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.num1 p , .num2 p , .num3 p , .num4 p
+{
+   color:whitesmoke;
+   font-size:20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Fourth section*/
+
+
+.Fourth
+{
+    height:600px;
+    width:100%;
+    text-align: center;
+}
+
+.Fourth p
+{
+    font-size:110px;
+    color: gray;
+    font-weight:900;
+    opacity:0.1;
+    text-transform: uppercase;
+    letter-spacing:0.001em;
+    font-family: sans-serif;
+}
+
+.Fourth b 
+{
+    text-transform: uppercase;
+    position: relative;
+    top:-90px;
+    font-size:40px;
+    font-family: sans-serif;
+
+}
+
+.Fourth h6
+{
+    margin-top: 10PX;
+    color:black;
+    position:relative;
+    top:-90px;
+    letter-spacing:20px;
+    font-size:12.5px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.dep1 
+{
+    width:70%;
+    height:220px;
+    margin: auto;
+}
+.child1 , .child2 , .child3
+{
+    margin-left: 15px;
+}
+.child1
+{
+    height:200px;
+    width:30%;
+    float:left;
+    background-image:url("cutting.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-top: 10px;
+
+}
+
+.child2
+{
+    height:170px;
+    width:30%;
+    background-image:url("mig-welding.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    float: left;
+    margin-top: 10px;
+
+
+}
+
+.child3
+{
+    height:170px;
+    width:30%;
+    float: left;
+    margin-top: 10px;
+
+}
+.child3 p 
+{
+    font-size:10px;
+    text-transform: capitalize;
+    color:gray;
+    font-family: none;
+    opacity:1;
+    float: left;
+    margin-left:3px;
+
+}
+.child3 img 
+{
+    height:12px;
+    width:12px;
+    float: left;
+
+}
+
+
+
+.child3 input[type=button]
+{
+    margin-top:10px;
+    background-color:gold;
+    width:130px;
+    border: 1px gold solid;
+    height:30px;
+    color:rgb(138, 120, 120);
+    cursor: pointer;
+    margin-left:-140px;
+}
+
+.dep2
+{
+    width:70%;
+    height:220px;
+    margin: auto;
+
+
+}
+.child4,.child5,.child6
+{
+margin-left: 15px;
+}
+
+
+.child4
+{
+    height:200px;
+    width:30%;
+    float:left;
+    
+}
+
+.child4 p 
+{
+    font-size:10px;
+    text-transform: capitalize;
+    color:gray;
+    font-family: none;
+    opacity:1;
+    float: left;
+    margin-left:3px;
+
+}
+.child4 img 
+{
+    height:12px;
+    width:12px;
+    float: left;
+
+}
+
+
+
+.child4 input[type=button]
+{
+    margin-top:10px;
+    background-color:gold;
+    width:130px;
+    border: 1px gold solid;
+    height:30px;
+    color:rgb(138, 120, 120);
+    cursor: pointer;
+    margin-left:-140px;
+}
+
+
+.child5
+{
+    height:170px;
+    width:30%;
+    float:left;
+    background-image:url("saw.webp");
+    background-size: cover;
+    background-repeat:no-repeat;
+    float: left;
+}
+.child6
+{
+    height:170px;
+    width:30%;
+    float: left;
+}
+
+.child6 p 
+{
+    font-size:10px;
+    text-transform: capitalize;
+    color:gray;
+    font-family: none;
+    opacity:1;
+    float: left;
+    margin-left:3px;
+
+}
+.child6 img 
+{
+    height:12px;
+    width:12px;
+    float: left;
+
+}
+.child6 input[type=button]
+{
+    margin-top:10px;
+    background-color:gold;
+    width:130px;
+    border: 1px gold solid;
+    height:30px;
+    color:rgb(138, 120, 120);
+    cursor: pointer;
+    margin-left:-140px;
+}
+
+/*FiFth section */
+.fifth
+{
+    width:100%;
+    height:300px;
+    margin-top: 10px;
+    background-color: rgba(247,247,247,255);
+    
+}
+
+.office,.Drop,.support
+{
+    height:190px;
+    width:30%;
+    margin-left:30px;
+    float: left;
+    margin-top:40px;
+}
+
+.office img ,.Drop img , .support img
+{
+    width:120px;
+
+}
+.support img 
+{
+    margin-top:1%;
+    width: 80px;
+}
+/*Sixth section*/
+.sixth
+{
+    height:200px;
+    width:100%;
+    background-color: #ffc51b;
+    padding: 80px 80px;
+
+}
+
+.sixth img 
+{
+    width:50px;
+    float: left;
+}
+
+.sixth p 
+{
+    opacity: 1;
+    font-size:25px;
+    float: left;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:10px;
+}
+
+.sixth input[type="email"]
+{
+    width:250px;
+    height:35px;
+    float: left;
+    margin-left:40px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+
+}
+
+.sixth input[type="button"]
+{
+    width:150px;
+    height:35px;
+    border: none;
+    background-color: #31384a;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left:30px;
+    border: none;
+    cursor: pointer;
+}
+
+/*seventh section */
+
+.seventh 
+{
+    height:500px;
+    width:100%;
+    background-color: #31384a;
+}
+
+.Stlirbo , .Contacus , .Subscribe
+{
+    height:100%;
+    width:30%;
+    float:left;
+    margin-left:30px;
+}
+
+
+.Stlirbo img
+{
+    width:30px;
+    margin-top:38px;
+}
+
+.Stlirbo b 
+{
+    position: relative;
+    top:-5px;
+    right:-5px;
+    color: rgb(255, 217, 0);
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Stlirbo p 
+{
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: 1;
+    color:whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    line-height: 2;
+}
+
+.face img , .twiter img  , .instgram img , .in img , .youtube img
+{
+    float: left;
+    margin-left:40px; 
+}
+
+.face img
+{
+    width:10px;
+}
+ .twiter img 
+ {
+     margin-top:43px;
+ }
+ .youtube img 
+ {
+     margin-top:45px;
+ }
+
+.instgram img 
+{
+    margin-top:38px;
+
+}
+
+
+
+.Contacus h4
+{
+    margin-top: 45px;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.Contacus img 
+{
+    width:15px;
+    float: left;
+    margin-left:20px;
+}
+
+.Contacus p 
+{
+    font-size: 12px;
+    opacity: 1;
+    color:whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    position: relative;
+    left: -10px;
+}
+
+.Subscribe h4
+{
+    margin-top: 45px;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.Subscribe P 
+{
+    font-size: 12px;
+    opacity: 1;
+    color:whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    margin-top: 40px;    
+}
+
+.Subscribe input[type=email]
+{
+    margin-top:35px;
+    background-color:#31384a;
+    color: white;
+    padding-left: 10px;
+    width:180px;
+    height:40px;
+}
+
+.Subscribe img 
+{
+    width:15px;
+    position: relative;
+    right:30px;
+    top: 5px;
+}
+
+/* } */
